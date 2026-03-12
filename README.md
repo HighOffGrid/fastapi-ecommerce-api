@@ -58,13 +58,13 @@ Instale as dependências:
 pip install -r requirements.txt
 
 
-## Rodando com Docker:
+## Rodando com Docker
 
 
 docker compose up --build
 
 
-## Execute a API:
+## Execute a API
 
 
 uvicorn main:app --reload
