@@ -1,9 +1,14 @@
 # fastapi-ecommerce-api
 fastapi-ecommerce-api + alembic + bcrypt + fastapi + passlib + psycopg2-binary + pydantic + pydantic_core + python-dotenv + python-jose + redis +SQLALchemy + uvicorn
 
-pip install -r requirements.txt
+# FastAPI Projects
 
-uvicorn app.main:app --reload
+Projeto ecommerce usando FastAPI para estudo.
+
+## Rodar projeto
+
+pip install -r requirements.txt
+uvicorn main:app --reload
 
 ## Docs da API
 
