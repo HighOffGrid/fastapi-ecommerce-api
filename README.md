@@ -1,7 +1,7 @@
 :::
 
 
-## FastAPI Ecommerce API
+# FastAPI Ecommerce API
 
 
 API de ecommerce desenvolvida com FastAPI, utilizando autenticação JWT, banco PostgreSQL e cache com Redis.
