@@ -1,4 +1,4 @@
-:::
+:::writing{variant=“standard” id=“arch1”}
 
 
 # FastAPI Ecommerce API
