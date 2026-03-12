@@ -10,3 +10,4 @@ uvicorn app.main:app --reload
 Após rodar o projeto:
 
 http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/redocs
