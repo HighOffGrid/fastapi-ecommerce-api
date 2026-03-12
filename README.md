@@ -31,11 +31,20 @@ Funcionalidades
 
 
 Client
-  |
-FastAPI
-  |
-Service Layer
-  |
+   │
+   ▼
+Routers (FastAPI)
+   │
+   ▼
+Service Layer (Regras de negócio)
+   │
+   ▼
+Repositories (Acesso aos dados)
+   │
+   ▼
+Models (SQLAlchemy ORM)
+   │
+   ▼
 PostgreSQL
 
 
