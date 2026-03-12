@@ -6,7 +6,7 @@ API de ecommerce desenvolvida com FastAPI, utilizando autenticação JWT, banco 
 
 Projeto criado para estudo de arquitetura backend moderna.
 
-Tecnologias
+Tecnologias:
 	•	FastAPI
 	•	PostgreSQL
 	•	SQLAlchemy
@@ -18,7 +18,7 @@ Tecnologias
 	•	Python-dotenv
 	•	Uvicorn
 
-Funcionalidades
+Funcionalidades:
 	•	Cadastro de usuários
 	•	Autenticação com JWT
 	•	Listagem de produtos
