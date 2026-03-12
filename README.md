@@ -1,4 +1,4 @@
-:::writing{variant=“standard” id=“read1”}
+:::
 
 
 ## FastAPI Ecommerce API
