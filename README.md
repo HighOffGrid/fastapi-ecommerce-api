@@ -58,7 +58,7 @@ Instale as dependências:
 pip install -r requirements.txt
 
 
-## Rodando com Docker
+## Rodando com Docker:
 
 
 docker compose up --build
