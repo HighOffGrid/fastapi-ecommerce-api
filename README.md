@@ -1,5 +1,3 @@
-:::writing{variant=“standard” id=“arch1”}
-
 
 # FastAPI Ecommerce API
 
@@ -89,8 +87,3 @@ app/
 
 
 Este projeto foi desenvolvido para prática de desenvolvimento backend utilizando FastAPI e boas práticas de arquitetura.
-:::
-
-
-
-
