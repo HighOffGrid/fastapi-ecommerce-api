@@ -54,7 +54,7 @@ PostgreSQL
 
 ## Estrutura do projeto
 
-
+```
 app/
  ├── models
  ├── schemas
@@ -62,6 +62,7 @@ app/
  ├── repositories
  ├── routers
  └── core
+```
 
 ---
 
