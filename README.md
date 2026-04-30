@@ -7,26 +7,26 @@ Projeto criado para estudo de arquitetura backend moderna.
 ---
 
 Tecnologias:
-	-	FastAPI
-	-	PostgreSQL
-	-	SQLAlchemy
-	-	Alembic (migrations)
-	-	Redis (cache)
-	-	JWT Authentication
-	-   Passlib / Bcrypt (hash de senha)
-	-	Pydantic
-	-	Python-dotenv
-	-	Uvicorn
+-	FastAPI
+-	PostgreSQL
+-	SQLAlchemy
+-	Alembic (migrations)
+-	Redis (cache)
+-	JWT Authentication
+-   Passlib / Bcrypt (hash de senha)
+-	Pydantic
+-	Python-dotenv
+-	Uvicorn
 
 ---
 
 Funcionalidades:
-	-	Cadastro de usuários
-	-	Autenticação com JWT
-	-	Listagem de produtos
-	-	Criação de pedidos
-	-	Cache com Redis
-	-	Migrations com Alembic
+-	Cadastro de usuários
+-	Autenticação com JWT
+-	Listagem de produtos
+-	Criação de pedidos
+-	Cache com Redis
+-	Migrations com Alembic
 
 ---
 
