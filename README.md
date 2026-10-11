@@ -1,111 +1,58 @@
-# FastAPI Ecommerce API
+# FastAPI E-commerce API
 
-API de ecommerce desenvolvida com FastAPI, utilizando autenticação JWT, banco PostgreSQL e cache com Redis.
+API backend de e-commerce desenvolvida com FastAPI, com autenticação JWT, catálogo de produtos e gestão de pedidos.
 
-Projeto criado para estudo de arquitetura backend moderna.
-
----
-
-Tecnologias:
--	FastAPI
--	PostgreSQL
--	SQLAlchemy
--	Alembic (migrations)
--	Redis (cache)
--	JWT Authentication
--   Passlib / Bcrypt (hash de senha)
--	Pydantic
--	Python-dotenv
--	Uvicorn
+**Stack:** Python · FastAPI · PostgreSQL · SQLAlchemy · Alembic · Docker
 
 ---
 
-Funcionalidades:
--	Cadastro de usuários
--	Autenticação com JWT
--	Listagem de produtos
--	Criação de pedidos
--	Cache com Redis
--	Migrations com Alembic
+## Funcionalidades
+
+- Cadastro e login de usuários com JWT
+- Hash seguro de senha
+- CRUD de produtos
+- Criação e consulta de pedidos
+- Persistência com PostgreSQL
+- Migrations com Alembic
+- Documentação automática com Swagger e ReDoc
+- Configuração por variáveis de ambiente
 
 ---
 
-## Arquitetura
-
-
-Client
-   │
-   ▼
-Routers (FastAPI)
-   │
-   ▼
-Service Layer (Regras de negócio)
-   │
-   ▼
-Repositories (Acesso aos dados)
-   │
-   ▼
-Models (SQLAlchemy ORM)
-   │
-   ▼
-PostgreSQL
-
----
-
-## Estrutura do projeto
-
-```
-app/
- ├── models
- ├── schemas
- ├── services
- ├── repositories
- ├── routers
- └── core
-```
-
----
-
-## Objetivo
-
-
-Este projeto foi desenvolvido para prática de desenvolvimento backend utilizando FastAPI e boas práticas de arquitetura.
-
----
-
-## Rodando o projeto
-
-
-Clone o repositório:
+## Como executar
 
 ```bash
-git clone https://github.com/seuuser/fastapi-ecommerce-api
+git clone [https://github.com/HighOffGrid/fastapi-ecommerce-api.git](https://github.com/HighOffGrid/fastapi-ecommerce-api.git)
 cd fastapi-ecommerce-api
-```
----
-
-Instale as dependências:
-```
-pip install -r requirements.txt
-```
----
-
-## Rodando com Docker
-
-
-O projeto já vem configurado com Docker e Docker Compose, incluindo PostgreSQL e Redis:
-```
+cp .env.example .env
 docker compose up --build
 ```
+
+No Windows PowerShell:
+
+```powershell
+Copy-Item .env.example .env
+docker compose up --build
+```
+
+Acesse:
+
+- Swagger: `http://127.0.0.1:8000/docs`
+- ReDoc: `http://127.0.0.1:8000/redoc`
+
 ---
 
-## Execute a API
+## Segurança
 
-Para rodar sem Docker (apenas para desenvolvimento):
-```
-uvicorn app.main:app --reload
+- Senhas armazenadas com hash seguro
+- JWT para rotas protegidas
+- Segredos configurados por variáveis de ambiente
+- Validação de entrada e saída com Pydantic
 
-Swagger UI: http://127.0.0.1:8000/docs
+---
 
-ReDoc: http://127.0.0.1:8000/redoc
-```
+## Próximos passos
+
+- Adicionar testes automatizados
+- Criar CI com GitHub Actions
+- Revisar autorização de pedidos para garantir que cada usuário veja apenas os próprios dados
